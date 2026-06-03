@@ -1,0 +1,19 @@
+.contenido{
+    width: 75%;
+    border-radius: 15px;
+    margin: auto;
+    text-align: justify;
+    background-color: antiquewhite;
+}
+
+.titulo{
+    background-color: aqua;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+    
+}
+
+body{
+    background-color: rgb(120, 226, 242);
+}
