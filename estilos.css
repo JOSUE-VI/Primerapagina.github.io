@@ -119,14 +119,25 @@ button:hover{
 }
 
 .informacion{
-    background-color:rgb(5,5,118);
-    padding:20px;
-    margin-top:20px;
-    border-radius:15px;
-}
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 15px;
+    padding: 30px;
+    }
+
+
 
 .informacion p{
     color:white;
     text-align:center;
     margin:0;
 }
+
+.imagen{
+   width: 400px;
+   display: block;
+   margin: auto;
+   border-radius: 20px;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
