@@ -1,10 +1,9 @@
 body{
-    background-color: #dcf5ff;;
-    font-family: 'Poppins', sans-serif;
-    margin: 0%;
-    padding: 20px;
-    }
-
+    background-color:#dcf5ff;
+    font-family:'Poppins', sans-serif;
+    margin:0;
+    padding:20px;
+}
 
 .menu{
     text-align:center;
@@ -15,7 +14,7 @@ body{
 }
 
 .menu h2{
-    color:black;
+    color:white;
     font-size:35px;
     margin-bottom:15px;
 }
@@ -120,10 +119,10 @@ button:hover{
 }
 
 .informacion{
-    background-color: rgb(5, 5, 118);
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 15px;
+    background-color:rgb(5,5,118);
+    padding:20px;
+    margin-top:20px;
+    border-radius:15px;
 }
 
 .informacion p{
