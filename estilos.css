@@ -4,10 +4,6 @@ body{
     background:#f5f5f5;
 }
 
-.contenedor{
-    display:flex;
-}
-
 .menu{
     width:250px;
     background:#1e293b;
