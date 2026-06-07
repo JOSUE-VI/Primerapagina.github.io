@@ -1,38 +1,91 @@
-<style>
-
 body{
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.7;
 }
 
 .contenedor{
     display: flex;
 }
 
+/* Menú lateral */
 .menu{
-    width: 300px;
-    height: 100vh;
-    background-color: #f2f2f2;
-    padding: 20px;
+    width: 260px;
+    min-height: 100vh;
+    background-color: #1f2937;
+    padding: 25px;
     position: sticky;
     top: 0;
 }
 
+.menu h2{
+    color: white;
+    margin-bottom: 30px;
+}
+
 .menu a{
     display: block;
+    color: #d1d5db;
     text-decoration: none;
-    color: black;
     margin: 15px 0;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .menu a:hover{
-    color: #00aa88;
+    color: #60a5fa;
+    padding-left: 8px;
 }
 
+/* Área principal */
 .contenido{
     flex: 1;
-    padding: 30px;
+    padding: 40px;
+    max-width: 1000px;
 }
 
-</style>
+/* Títulos */
+h1{
+    color: #1e3a8a;
+    border-bottom: 3px solid #60a5fa;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+h2{
+    color: #2563eb;
+    margin-top: 30px;
+}
+
+/* Párrafos */
+p{
+    text-align: justify;
+}
+
+/* Listas */
+ul{
+    padding-left: 25px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+/* Botones */
+button{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #1d4ed8;
+}
