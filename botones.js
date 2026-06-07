@@ -1,7 +1,7 @@
-window.onload = function() {
-    document.getElementById("bienvenidaModal").style.display = "block";
+function abrirModal(){
+    document.getElementById("gatoMymodal").style.display = "block";
 }
 
-function cerrarBienvenida() {
-    document.getElementById("bienvenidaModal").style.display = "none";
+function cerrarModal(){
+    document.getElementById("gatoMymodal").style.display = "none";
 }
