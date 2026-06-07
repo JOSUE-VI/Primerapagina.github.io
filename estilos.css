@@ -1,91 +1,66 @@
 body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f5f7fa;
-    color: #333;
-    line-height: 1.7;
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
 }
 
 .contenedor{
-    display: flex;
+    display:flex;
 }
 
-/* Menú lateral */
 .menu{
-    width: 260px;
-    min-height: 100vh;
-    background-color: #1f2937;
-    padding: 25px;
-    position: sticky;
-    top: 0;
+    width:250px;
+    background:#1e293b;
+    min-height:100vh;
+    padding:20px;
+    position:sticky;
+    top:0;
 }
 
 .menu h2{
-    color: white;
-    margin-bottom: 30px;
+    color:white;
 }
 
 .menu a{
-    display: block;
-    color: #d1d5db;
-    text-decoration: none;
-    margin: 15px 0;
-    font-weight: bold;
-    transition: 0.3s;
+    display:block;
+    color:#dbeafe;
+    text-decoration:none;
+    margin:15px 0;
 }
 
 .menu a:hover{
-    color: #60a5fa;
-    padding-left: 8px;
+    color:#60a5fa;
 }
 
-/* Área principal */
 .contenido{
-    flex: 1;
-    padding: 40px;
-    max-width: 1000px;
+    flex:1;
+    padding:40px;
+    background:white;
+    margin:20px;
+    border-radius:10px;
 }
 
-/* Títulos */
+.contenido p{
+    text-align:justify;
+}
+
 h1{
-    color: #1e3a8a;
-    border-bottom: 3px solid #60a5fa;
-    padding-bottom: 10px;
-    margin-top: 40px;
+    color:#1e3a8a;
 }
 
 h2{
-    color: #2563eb;
-    margin-top: 30px;
+    color:#2563eb;
 }
 
-/* Párrafos */
-p{
-    text-align: justify;
-}
-
-/* Listas */
-ul{
-    padding-left: 25px;
-}
-
-li{
-    margin-bottom: 10px;
-}
-
-/* Botones */
 button{
-    background-color: #2563eb;
-    color: white;
-    border: none;
-    padding: 12px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-top: 10px;
-    font-size: 15px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
 }
 
 button:hover{
-    background-color: #1d4ed8;
+    background:#1d4ed8;
 }
