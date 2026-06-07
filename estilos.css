@@ -37,6 +37,10 @@
     padding: 30px;
     }
 
+.titulo p{
+color: white;
+}
+
 body{
     background-color: #dcf5ff;;
     font-family: 'Poppins', sans-serif;
