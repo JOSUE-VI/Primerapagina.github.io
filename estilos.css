@@ -1,19 +1,38 @@
-.contenido{
-    width: 75%;
-    border-radius: 15px;
-    margin: auto;
-    text-align: justify;
-    background-color: antiquewhite;
-}
-
-.titulo{
-    background-color: aqua;
-    font-size: 30px;
-    text-align: left;
-    padding: 10px;
-    
-}
+<style>
 
 body{
-    background-color: rgb(120, 226, 242);
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
+
+.contenedor{
+    display: flex;
+}
+
+.menu{
+    width: 300px;
+    height: 100vh;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: #00aa88;
+}
+
+.contenido{
+    flex: 1;
+    padding: 30px;
+}
+
+</style>
